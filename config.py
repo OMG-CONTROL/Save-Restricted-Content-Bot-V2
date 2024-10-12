@@ -9,4 +9,4 @@ BOT_TOKEN = getenv("BOT_TOKEN", "7564201003:AAGEaICEKcB1JlH3vUwCdJ1G51jDkB8Q4No"
 OWNER_ID = list(map(int, getenv("OWNER_ID", "7524828572").split()))
 MONGO_DB = getenv("MONGO_DB", "")
 LOG_GROUP = getenv("LOG_GROUP", "1002230302878")
-CHANNEL_ID = int(getenv("CHANNEL_ID", "1002230302878"))
+CHANNEL_ID = int(getenv("CHANNEL_ID", ""))
